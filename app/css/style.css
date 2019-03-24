@@ -1,0 +1,79 @@
+.span_card{
+    margin-left: 10px;
+    /* margin-top: -10px; */
+    position: absolute;
+    margin-top: 11px;
+    color: #d75a4a;
+}
+
+.card{
+    background-color: transparent;
+    -webkit-box-shadow: -1px 0px 5px 0px rgba(140,82,255,1);
+    -moz-box-shadow: -1px 0px 5px 0px rgba(140,82,255,1);
+    box-shadow: -1px 0px 5px 0px rgba(140,82,255,1);
+}
+
+.card-content{
+    background-color: #000;
+    
+}
+.card-action{
+    background-color: #000;
+}
+.card-content p{
+    color:#fff;
+}
+.span_card{
+    color:#8d51ff;
+}
+
+.sidenav .user-view .circle {
+    height: 102px !important;
+    width: 102px !important;
+}
+
+.sidenav .user-view .name, .sidenav .user-view .email {
+    font-size: 20px !important;
+    line-height: 24px;
+}
+
+.sidenav li>a {
+    color: rgb(226, 211, 255) !important;
+    display: block;
+    font-size: 26px !important;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 32px;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+    color: #8d51ff;
+    margin-right: 24px;
+    -webkit-transition: color .3s ease;
+    transition: color .3s ease;
+    text-transform: uppercase;
+}
+.collection .collection-item {
+    background-color: rgba(0, 0, 0, 0.25098039215686274) !important;
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin: 0;
+    /* border-bottom: 1px solid #e0e0e0; */
+}
+
+
+.collection .collection-item.avatar {
+    min-height: 84px;
+    padding-left: 72px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.12) !important;
+}
+.collection .collection-item.avatar .title {
+    font-size: 16px;
+    color: #fff !important;
+}
+.collection .collection-item.avatar p {
+    margin: 0;
+    color: #fff !important;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body style="margin:0px !important; padding:0px !important;background: #2e1463;">
+        <ul id="slide-out" class="sidenav" style="z-index: 99999999; background-color: rgba(140, 82, 255, 0.72); transform: translateX(-105%);">
+            <li><div class="user-view">
+              <a href="#user"><img class="circle" src="img/perfil.jpeg"></a>
+              <a href="#name"><span class="white-text name">Ester Ribeiro</span></a>
+              <a href="#email"><span class="white-text email">ester@gmail.com</span></a>
+            </div></li>
+            <li><div class="divider" style="
+              width: 80%;
+              margin-left: 20px;
+          "></div></li>
+          <li><a class="waves-effect" href="index.html">Home</a></li>
+            <li><a class="waves-effect">Perfil</a></li>
+            
+            <li><a class="waves-effect" href="chats.html">Ranking</a></li>
+            <li><a class="waves-effect" href="loja.html">Loja</a></li>
+            <li><a class="waves-effect" href="#!">Likes!</a></li>
+          </ul>
+            <div class="container" style="width:100%;height:auto;margin:auto;">
+                <header style="position:fixed;width:100%;height:auto;background-color:#8c52ff !important;z-index: 99999;margin: 0px;padding: 0px;margin-top: -8px;">
+                    <a href="#" style="position: inherit;color:#fff;margin-top: 27px;
+                    margin-left: 10px;" data-target="slide-out" class="sidenav-trigger"><i style="font-size: 36px;" class="material-icons">menu</i></a>
+                  <img style="width:20%;margin-left:40%;padding: 10px;" src="img/logo-01.png" alt="">
+                </header>
+                  <a href="#" style="position: inherit;color:#fff;margin-top: 27px;
+                  margin-left: 10px;" data-target="slide-out" class="sidenav-trigger"><i style="font-size: 36px;" class="material-icons">menu</i></a>
+
+                  <div class="contanier" style="width:95%;padding-left:20px;margin-top: 80px;position: absolute;">
+
+                    <div class="col s12" style="    text-align: center;">
+                      <img style="width:60%;padding: 10px; text-align:center;color:#fff;" src="img/capa.jpeg" alt=""></div>
+                      <ul class="collapsible" style="border:0px !important;">
+                          <li>
+                            <div class="collapsible-header" style="border-radius:39px;background-color: #8c52ff;color:#fff;border-bottom: 0px;"><i class="material-icons" style="    color: #fff;">arrow_downward</i>Todos os vídeos</div>
+                            <div class="collapsible-body">
+
+                                <div class="row">
+                                    <div class="col s12 m7">
+                                      <div class="card">
+                                        <div class="card-image">
+                                          <img src="img/video.jpeg">
+                                          <span class="card-title">Rebeca Souza</span>
+                                        </div>
+                                        <div class="card-content">
+                                          <p>Se liga galera! Diretamente do interior da Bahia!!! CANTA MUITÃO</p>
+                                        </div>
+                                        <div class="card-action" style="
+                                        background-color: #000;
+                                    ">
+                                          <a href="#" style="font-weight:bolder;"><img style="width:15%;" src="img/like.png" alt=""> <span class="span">8.0030 likes</span></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                          </li>
+                          
+                        </ul>
+                              
+                    <div style="    text-align: center;    color: #fff;"><h6>Musica</h6><h4>De <a href="#">Artista</a></h4>
+                      <p class="entity-long-description">
+                        <span dir="auto">Samba-rock, sambalanço, samba-funk. Uma playlist de muito suingue afrobrasileiro.</span></p>
+                        
+                        </div>
+                    <img style="width:100%;padding: 10px;" src="img/chart2.svg" alt=""></div>
+                  </div>
+
+            </div>
+
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script src="js/descer_campo.js"></script>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
+  // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
+  // var collapsibleElem = document.querySelector('.collapsible');
+  // var collapsibleInstance = M.Collapsible.init(collapsibleElem, options);
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+      </script>
+    </body>
+  </html>
